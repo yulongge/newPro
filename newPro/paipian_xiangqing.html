@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--如果安装了GCF，则使用GCF来渲染页面，如果为安装GCF，则使用最高版本的IE内核进行渲染
+    通过修改HTTP头文件的方法来实现让指定的页面使用GCF内核进行渲染-->
+    <title>排片-详情</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <script type="text/javascript">
+    function selecttag (a,b){
+            var tag=document.getElementById('tag').getElementsByTagName('a');
+            var taglength=tag.length;
+            for(i=1;i<taglength;i++){
+                    tag[i].className="on";
+            }
+            b.parentNode.className="selectTag";
+            for(i=0; j=document.getElementById("tagcontent"+i); i++){
+                    j.style.display = "none";
+            }
+            document.getElementById(a).style.display = "block";
+    }
+</script>
+</head>
+<body>
+    <!-- header start-->
+    <header class="w-header" mon="area=header&amp;action=click&amp;element_type=nav">
+        <a class="arrow-wrap" href="paipian.html" mon="element=back">
+        <span class="arrow-left"></span>
+        </a>
+        <div class="home"></div>
+        <div class="m-title"><h1>北京万达影院</h1></div>    
+    </header>
+    <!-- header end-->
+    <!-- data start-->
+    <article class="wrap-page page">
+        <!-- tpye btn start-->
+        <div class="list-type-cnt">
+            <div class="list-type" id="tag">
+                <a href="javascript:;" onClick="selecttag('tagcontent0',this)" class="on">票房数据</a>
+                <a href="javascript:;" onClick="selecttag('tagcontent1',this)">排片数据</a>
+            </div>
+        </div>
+        <!-- piaofang data start-->
+        <div id="tagcontent">
+        <div class="piao-data" id="tagcontent0">
+        <!-- topbar start-->
+            <ul class="nav-sub">
+                <li class="city"><a href="/">全国</a></li>
+                <li class="date"><a href="/">2015-03-17</a></li>
+                <li class="time"><a href="/">黄金时段</a></li>
+            </ul>
+        <!-- topbar end-->
+        <!-- chart start-->
+            <div class="data-chart" style="height:auto;">
+                <div class="photo-chart">
+                    <a href="yuce_xiangqing1.html"><img src="img/chart_3.jpg" style="width:100%;"></a>
+                </div>
+            </div>
+            <!-- data table start-->
+            <div class="data-list">
+                <div class="data-tr">
+                  <div class="data-th">TOP排片城市</div>
+                  <div class="data-th">场次</div>
+                  <div class="data-th">占比</div>  
+                </div>
+                <div class="data-tr">
+                    <div class="data-td first-cell">北京<i>(108家)</i></div>
+                    <div class="data-td second-cell">26,504</div>
+                    <div class="data-td third-cell">22.78%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">上海<i>(90家)</i></div>
+                    <div class="data-td second-cell">18,662</div>
+                    <div class="data-td third-cell">16.04%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">广州<i>(80家)</i></div>
+                    <div class="data-td second-cell">16,353</div>
+                    <div class="data-td third-cell">14.21%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">深圳<i>(70家)</i></div>
+                    <div class="data-td second-cell">12,346</div>
+                    <div class="data-td third-cell">10.16%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">杭州<i>(60家)</i></div>
+                    <div class="data-td second-cell">12,003</div>
+                    <div class="data-td third-cell">10.34%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">南京<i>(50家)</i></div>
+                    <div class="data-td second-cell">8,012</div>
+                    <div class="data-td third-cell">6.89%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">青岛<i>(40家)</i></div>
+                    <div class="data-td second-cell">6,797</div>
+                    <div class="data-td third-cell">5.84%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">西安<i>(30家)</i></div>
+                    <div class="data-td second-cell">5,883</div>
+                    <div class="data-td third-cell">5.06%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">郑州<i>(20家)</i></div>
+                    <div class="data-td second-cell">2,637</div>
+                    <div class="data-td third-cell">2.27%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">福建<i>(10家)</i></div>
+                    <div class="data-td second-cell">2,263</div>
+                    <div class="data-td third-cell">1,95%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">其他</div>
+                    <div class="data-td second-cell">4,666</div>
+                    <div class="data-td third-cell">4.01%</div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- paipian start-->
+        <div class="pai-data" id="tagcontent1" style="display:none;">
+            <ul class="nav-sub">
+                <li class="date"><a href="/">2015-03-17</a></li>
+            </ul>
+            <!-- chart start-->
+            <div class="data-chart" style="height:auto;">
+                <div class="photo-chart" style="width:100%;">
+                    <a href="yuce_xiangqing.html"><img src="img/chart_4.jpg"></a>
+                </div>
+            </div>
+            <!-- data table start-->
+            <div class="data-list">
+                <div class="data-tr">
+                  <div class="data-th">TOP销量城市</div>
+                  <div class="data-th">场次</div>
+                  <div class="data-th">占比</div>  
+                </div>
+                <div class="data-tr">
+                    <div class="data-td first-cell">北京<i>(108家)</i></div>
+                    <div class="data-td second-cell">26,504</div>
+                    <div class="data-td third-cell">22.78%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">上海<i>(90家)</i></div>
+                    <div class="data-td second-cell">18,662</div>
+                    <div class="data-td third-cell">16.04%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">广州<i>(80家)</i></div>
+                    <div class="data-td second-cell">16,353</div>
+                    <div class="data-td third-cell">14.21%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">深圳<i>(70家)</i></div>
+                    <div class="data-td second-cell">12,346</div>
+                    <div class="data-td third-cell">10.16%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">杭州<i>(60家)</i></div>
+                    <div class="data-td second-cell">12,003</div>
+                    <div class="data-td third-cell">10.34%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">南京<i>(50家)</i></div>
+                    <div class="data-td second-cell">8,012</div>
+                    <div class="data-td third-cell">6.89%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">青岛<i>(40家)</i></div>
+                    <div class="data-td second-cell">6,797</div>
+                    <div class="data-td third-cell">5.84%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">西安<i>(30家)</i></div>
+                    <div class="data-td second-cell">5,883</div>
+                    <div class="data-td third-cell">5.06%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">郑州<i>(20家)</i></div>
+                    <div class="data-td second-cell">2,637</div>
+                    <div class="data-td third-cell">2.27%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">福建<i>(10家)</i></div>
+                    <div class="data-td second-cell">2,263</div>
+                    <div class="data-td third-cell">1,95%</div>
+                </div>
+                <div class="data-tr">
+                    <div class="data-td">其他</div>
+                    <div class="data-td second-cell">4,666</div>
+                    <div class="data-td third-cell">4.01%</div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </article>
+    <!-- data end-->
+</body>
+</html>
