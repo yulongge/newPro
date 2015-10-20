@@ -1,6 +1,9 @@
 @charset "UTF-8";
 @import
 	"reset.scss";
+body{
+	font-size: 10px;
+}
 .con{
   width:94%;
   height: auto;
@@ -57,7 +60,7 @@
   height: auto;
   .con{
     color: #333333;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     margin-top:50px;
     margin-bottom: 50px;
     font-family: "华文黑体";
@@ -72,7 +75,7 @@
     .article{
       margin-bottom: 25px;
       p{
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         line-height: 1.4;
         color: #666666;
       }
@@ -98,7 +101,7 @@
   position: fixed;
   bottom:0px;
   width: 100%;
-  height: 88px;
+  height: 44px;
   border-top:1px solid #e8e8e8;
   background:#ffffff;
   opacity: 0.9;
@@ -110,28 +113,30 @@
       position: absolute;
     };
     .share{
-      width: 27px;
-      height: 33px;
+      width: 17px;
+      height: 21px;
       left:25px;
       background: url("./share.png");
       top:50%;
-      margin-top:-16px;
+      margin-top:-10px;
+			background-size:cover;
     };
     .support{
-      width: 31px;
-      height: 27px;
+      width: 24px;
+      height: 21px;
       right:25px;
       background: url("./support.png");
       top:50%;
-      margin-top:-14px;
+      margin-top:-7px;
+			background-size:cover;
     };
     .num{
       width:20px;
       height: 20px;
       right:0px;
       top:50%;
-      margin-top:-4px;
-      font-size: 1.3em;
+      margin-top:0px;
+      font-size: 1em;
       color: #6f6f6f;
     }
   }
@@ -139,14 +144,16 @@
 }
 .vTitle{
   .con{
-    font-size: 3.12rem;
+    font-size: 2.4rem;
   }
 }
 .content .ifcon{
   width:100%;
   margin-bottom: 50px;
+	background:#000;
+	text-align: center;
   iframe{
-    width:100%;
+    width:auto;
     height: 422px;
   }
 }
