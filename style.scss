@@ -1,6 +1,20 @@
 @charset "UTF-8";
 @import
 	"reset.scss";
+// font
+// --------------------
+// 4rem     70
+// 2.4rem   48
+// 2.1rem   40
+// 1.68rem  32
+
+// 2rem     36-
+// 1.6rem   30-
+// 1.5rem   28-
+// 1.3rem   26- 默认
+// 1.22rem  24-
+// 1.1rem   22
+// 1rem     18-20
 body{
 	font-size: 10px;
 }
@@ -11,14 +25,14 @@ body{
 }
 .banner{
 	width:100%;
-	height: 117px;
+	height: 58px;
   .con{
   	height: 100%;
   	border-bottom: 1px solid #d8d8d8;
   	margin: 0 auto;
     .icon{
-    	width: 60px;
-    	height: 60px;
+    	width: 30px;
+    	height: 30px;
       i{
       	display: inline-block;
       	width: 100%;
@@ -30,29 +44,29 @@ body{
       }
     };
     .msg{
-      margin-left:16px;
+      margin-left:8px;
       i{
         display: block;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
       };
       .name{
         color: #333333;
-        line-height: 30px;
+        line-height: 1.1rem;
       };
       .ins{
         color: #999999;
-        font-size: 1.25rem;
-        line-height: 25px;
+        font-size: .9rem;
+        line-height: 1.2rem;
       }
     }
   };
   span{
   	display: block;
     float:left;
-  	height: 60px;
+  	height: 30px;
   	position: relative;
   	top:50%;
-  	margin-top: -30px;
+  	margin-top: -15px;
   }
 }
 .title{
@@ -61,10 +75,10 @@ body{
   .con{
     color: #333333;
     font-size: 2.1rem;
-    margin-top:50px;
-    margin-bottom: 50px;
+    margin-top:30px;
+    margin-bottom: 30px;
     font-family: "华文黑体";
-    line-height: 3rem;
+    line-height: 2.6rem;
   }
 }
 .content{
@@ -76,7 +90,7 @@ body{
       margin-bottom: 25px;
       p{
         font-size: 1.5rem;
-        line-height: 1.4;
+        line-height: 1.5;
         color: #666666;
       }
     };
