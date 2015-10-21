@@ -84,6 +84,7 @@ body{
 .content{
   width: 100%;
   height: auto;
+	margin-bottom: 44px;
   .con{
     margin:0 auto;
     .article{
@@ -163,11 +164,11 @@ body{
 }
 .content .ifcon{
   width:100%;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 	background:#000;
 	text-align: center;
   iframe{
     width:auto;
-    height: 422px;
+    height: 211px;
   }
 }
