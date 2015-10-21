@@ -139,7 +139,7 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: "华文黑体";
-    line-height: 2.6rem; }
+    line-height: 1.25; }
 
 .content {
   width: 100%;
@@ -151,7 +151,7 @@ body {
       margin-bottom: 25px; }
       .content .con .article p {
         font-size: 1.5rem;
-        line-height: 1.5;
+        line-height: 1.8;
         color: #666666; }
     .content .con .card {
       margin-bottom: 25px;
@@ -166,7 +166,8 @@ body {
         position: absolute;
         bottom: 14px;
         margin-left: 10px;
-        width: 100%; }
+        width: 100%;
+        display: block; }
         .content .con .card .cMsg i {
           display: block;
           color: #ffffff; }
@@ -220,7 +221,10 @@ body {
       right: 25px;
       background: url("./support.png");
       top: 50%;
-      margin-top: -7px;
+      margin-top: -9px;
+      background-size: cover; }
+    .footer .con .supported {
+      background: url("./supported.png");
       background-size: cover; }
     .footer .con .num {
       width: 20px;
@@ -230,9 +234,18 @@ body {
       margin-top: 0px;
       font-size: 1em;
       color: #6f6f6f; }
+    .footer .con .comment {
+      width: 21px;
+      height: 21px;
+      left: 25px;
+      background: url("./comment.png");
+      top: 50%;
+      margin-top: -10px;
+      background-size: cover; }
 
 .vTitle .con {
-  font-size: 2.4rem; }
+  font-size: 2.4rem;
+  line-height: 1.44; }
 
 .content .ifcon {
   width: 100%;
