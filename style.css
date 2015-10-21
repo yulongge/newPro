@@ -102,26 +102,26 @@ body {
     .banner .con .icon {
       width: 30px;
       height: 30px; }
-      .banner .con .icon i {
+      .banner .con .icon img {
         display: inline-block;
         width: 100%;
         height: 100%;
         border-radius: 50%;
         -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        background: #494949; }
+        -moz-border-radius: 50%; }
     .banner .con .msg {
-      margin-left: 8px; }
+      margin-left: 8px;
+      margin-top: -18px; }
       .banner .con .msg i {
         display: block;
-        font-size: 1.1rem; }
+        font-size: 1rem; }
       .banner .con .msg .name {
         color: #333333;
-        line-height: 1.1rem; }
+        line-height: 1.2; }
       .banner .con .msg .ins {
         color: #999999;
-        font-size: .9rem;
-        line-height: 1.2rem; }
+        font-size: .8rem;
+        line-height: 1.5; }
   .banner span {
     display: block;
     float: left;

@@ -33,30 +33,30 @@ body{
     .icon{
     	width: 30px;
     	height: 30px;
-      i{
+      img{
       	display: inline-block;
       	width: 100%;
       	height: 100%;
       	border-radius: 50%;
       	-webkit-border-radius: 50%;
       	-moz-border-radius: 50%;
-      	background: #494949;
       }
     };
     .msg{
       margin-left:8px;
+			margin-top:-18px;
       i{
         display: block;
-        font-size: 1.1rem;
+        font-size: 1rem;
       };
       .name{
         color: #333333;
-        line-height: 1.1rem;
+        line-height: 1.2;
       };
       .ins{
         color: #999999;
-        font-size: .9rem;
-        line-height: 1.2rem;
+        font-size: .8rem;
+        line-height: 1.5;
       }
     }
   };
