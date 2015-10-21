@@ -156,9 +156,36 @@ body {
     .content .con .card {
       margin-bottom: 25px;
       width: 100%;
-      background: #4bbb00; }
+      background: #4bbb00;
+      position: relative; }
+      .content .con .card a {
+        text-decoration: none; }
       .content .con .card img {
         width: 100%; }
+      .content .con .card .cMsg {
+        position: absolute;
+        bottom: 14px;
+        margin-left: 10px;
+        width: 100%; }
+        .content .con .card .cMsg i {
+          display: block;
+          color: #ffffff; }
+        .content .con .card .cMsg .cName {
+          font-size: 1.5rem;
+          line-height: 2.8rem; }
+        .content .con .card .cMsg .cIns {
+          font-size: 1rem;
+          line-height: 1.5rem; }
+        .content .con .card .cMsg .arrow {
+          position: absolute;
+          right: 20px;
+          background: url("./arrow.png");
+          width: 12px;
+          height: 20px;
+          background-size: cover;
+          display: inline-block;
+          top: 50%;
+          margin-top: -10px; }
     .content .con .img {
       margin-bottom: 25px;
       width: 100%; }
@@ -188,8 +215,8 @@ body {
       margin-top: -10px;
       background-size: cover; }
     .footer .con .support {
-      width: 24px;
-      height: 21px;
+      width: 23px;
+      height: 20px;
       right: 25px;
       background: url("./support.png");
       top: 50%;

@@ -99,9 +99,42 @@ body{
       margin-bottom: 25px;
       width:100%;
       background:#4bbb00;
+			position: relative;
+			a{
+				text-decoration: none;
+			};
       img{
         width:100%;
-      }
+      };
+			.cMsg{
+				position: absolute;
+				bottom:14px;
+				margin-left:10px;
+				width: 100%;
+				i{
+					display: block;
+					color: #ffffff;
+				};
+				.cName{
+					font-size: 1.5rem;
+					line-height: 2.8rem;
+				};
+				.cIns{
+					font-size: 1rem;
+					line-height: 1.5rem;
+				};
+				.arrow{
+					position: absolute;
+					right: 20px;
+					background: url("./arrow.png");
+					width:12px;
+					height: 20px;
+					background-size:cover;
+					display: inline-block;
+					top:50%;
+					margin-top:-10px;
+				}
+			}
     };
     .img{
       margin-bottom: 25px;
@@ -137,8 +170,8 @@ body{
 			background-size:cover;
     };
     .support{
-      width: 24px;
-      height: 21px;
+      width: 23px;
+      height: 20px;
       right:25px;
       background: url("./support.png");
       top:50%;
